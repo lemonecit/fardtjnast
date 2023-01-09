@@ -8,9 +8,8 @@
         background-color:white;
         margin:0px;
         padding:0px;
-        font-family:anton;
-        font-size:16px;
-        
+        font-family: 'Roboto', sans-serif;
+      
         }
         
         header{
@@ -19,6 +18,15 @@
         width:100%;
         background-color:#006DBB;
         
+        }
+
+        main {height:600px;}
+
+        footer {
+
+            height: 57px;
+            width:100%;
+            background-color:#006DBB; 
         }
     
 }
