@@ -12,9 +12,9 @@
         <main>
             <img src="" alt="">
                 <h1>Välj inloggningssätt</h1> 
-                
+                <a href=""></a>
                 <button>inloggning med telefonnummer</button>
-                <a href="login_telephone.html"> <button>Inloggning med personnummer</button></a>
+                <button>Inloggning med personnummer</button>
             </main>
     <footer><a href=""><img src="" alt=""></a></footer>
 </body>

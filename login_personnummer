@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Startsidan för färdtjänst</title>
+    <title>Inloggning med telefonnummer</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header><a href=""><img src="" alt=""></a></header>
         <main>
             <img src="" alt="">
-                <h1>Välj inloggningssätt</h1> 
-                
-                <button>inloggning med telefonnummer</button>
-                <a href="login_telephone.html"> <button>Inloggning med personnummer</button></a>
+                <h1>Inloggning med telefonnummer</h1> 
+                <a href=""></a>
+                <form action="">
+
+                    <input type="text" name="lgn_txt" id="">telefonnummer
+                    <input type="password" name="lgn_pwd" id="">Ange password
+                    <input type="submit" value="">Logga in
+                </form>
             </main>
     <footer><a href=""><img src="" alt=""></a></footer>
 </body>
