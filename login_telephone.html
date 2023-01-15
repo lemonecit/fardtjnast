@@ -8,18 +8,81 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header><a href=""><img src="" alt=""></a></header>
-        <main>
-            <img src="" alt="">
-                <h1>Inloggning med telefonnummer</h1> 
-                <a href=""></a>
-                <form action="">
+    <header>
 
-                    <input type="text" name="lgn_txt" id="">telefonnummer
-                    <input type="password" name="lgn_pwd" id="">Ange password
-                    <input type="submit" value="">Logga in
-                </form>
+        <aside class="header_asideOfImg">
+         <div class="header_img">  
+             <a href="index.html"><img src="images/front-of-bus.png" alt="bild på buss"></a>
+        </div>
+ 
+        </aside>
+        <aside class="header_menu">
+         <input id="toggle" type="checkbox"></input>
+         <label for="toggle" class="hamburger">
+             <div class="top-bun"></div>
+             <div class="meat"></div>
+             <div class="bottom-bun"></div>
+           </label>
+           
+           <div class="nav">
+             <div class="nav-wrapper">
+               <nav>
+                 <a href="rules.html">REGLER</a><br>
+                 <a href="#">Hur fungerar färdtjänst</a><br>
+                 <a href="#">Kontakta kundtjänst</a><br>
+                 <a href="#">FAQ</a><br>
+                 <a href="#">Logga ut</a>
+               </nav>
+             </div>
+ 
+        </aside>
+ 
+ 
+     
+     </header>
+             <main>
+                <section class="img_banner">
+                    <img src="images/route.jpg" alt="">
+                    </section>
+  
+
+
+                <section class="form_content">
+                    <h1>Logga in med <br> telefonnummer</h1> 
+                        <form action="login_firstpage.html">
+                            <section class="form_inputs">
+                             <aside><input type="text" class="lgn_txt" name="lgn_txt" id="" placeholder="telefonnummer">
+                             </aside>
+                             <aside>                            <input type="password" class="lgn_pwd" name="lgn_pwd" id="" placeholder="Ange password">
+                             </aside>   
+                            <input class="submit_btn" type="submit" value="Logga in">
+    
+                            </section>
+    
+                        </form>
+    
+    
+                    </section>
+
             </main>
-    <footer><a href=""><img src="" alt=""></a></footer>
+            <footer>
+                <section>
+        
+                    <aside>   
+                        <a href="customercall.html">
+                            <img src="images/customer-service.png" alt="">
+                        </a>
+                        </aside>
+                    <aside>    
+                        <a href="customercall.html">
+                            <img src="images/accessible.png" alt="">
+                        </a>
+                    </aside>
+        
+        
+                </section>
+        
+            
+            </footer>
 </body>
 </html>
