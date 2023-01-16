@@ -2828,7 +2828,7 @@ body {
                     /* This rule centers the nav items verticaly in the bar with the height and line height properties. Spacing between the nav items is controlled by setting right and left padding.  */
         .header_menu nav ul li {
         
-            background-color:#031a3b;
+            background-color:#02122b3a;
             display: inline-block;
           
             list-style: none;
@@ -2840,7 +2840,7 @@ body {
           /* :hover allows you change the background color of the nav items when you mouse over them. Play around with the transition value to change the speed of the hover transition. */
           .header_menu li:hover {
           color:black;
-            background: white;
+            background: rgba(255, 255, 255, 0.767);
             /* transition: background .3s; */
           }
      
