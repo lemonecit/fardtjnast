@@ -12,7 +12,20 @@ h2{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-   
+
+    /* hidden elements of the desktop */
+
+   .xl_H1 {
+
+    display: none;
+
+   }
+
+   .header_desktop {
+
+    display: none;
+
+   }
 
 
     body {
