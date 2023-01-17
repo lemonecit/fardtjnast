@@ -2935,7 +2935,7 @@ body {
 
         .firstpage_login {
 
-            margin-top:125px;
+            margin-top:65px;
 
         }
 
@@ -3018,13 +3018,7 @@ body {
         }
 
 
-        .afQuickMenu {
-
-            width: 60%;
-       
-            margin: 100px auto;
-
-        }
+    
 
         .ac_quickmenu {
             z-index: 0;
@@ -3526,6 +3520,7 @@ body {
                 margin-top:150px;
 
           }
+
           
 
 }
