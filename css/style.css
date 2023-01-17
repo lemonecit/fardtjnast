@@ -2790,12 +2790,17 @@ body {
         
 
         header{
+
+            position:fixed;
+            top:0;
+            overflow:hidden;
+   
             text-align: center;
             height: 98px;
             width:100%;
             background-color:#006DBB;
             display: grid;
-            grid-template-columns: 450px 0px auto auto 350px;
+            grid-template-columns: 300px 50px auto auto 300px;
             grid-template-rows: 95px;
             grid-template-areas: 
           
@@ -2806,7 +2811,7 @@ body {
     
         
         .header_menu  {
-   
+     
             margin:0;
             padding:0px;
             color:white;
@@ -3077,6 +3082,7 @@ body {
 
 
         .quickmenu {
+            top:98px;
             z-index: 0;
             position:fixed;
             width: 100%;
@@ -3513,6 +3519,12 @@ body {
           }
           #table2 td:nth-child(odd) {
             background: #FFF;
+          }
+
+          .shortarticle {
+
+                margin-top:150px;
+
           }
           
 
