@@ -684,7 +684,7 @@ h2{
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px and max-width:768px) {
+@media only screen and (min-width: 600px) and (max-width:768px) {
 
 
     /* hidden mobile elements */
@@ -1375,7 +1375,7 @@ body {
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px and max-width:996px) {     /* hidden mobile elements */
+@media only screen and (min-width: 768px) and (max-width:996px) {     /* hidden mobile elements */
 
     .s_H1 {
 
@@ -2059,8 +2059,8 @@ body {
     }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px and max-width:1200px) {
+/* för större enhet (bärbara/stationära, 992px och uppåt) */
+@media only screen and (min-width: 992px) and (max-width:1200px) {
 
      /* hidden mobile elements */
 
@@ -2794,17 +2794,17 @@ body {
             position:fixed;
             top:0;
             overflow:hidden;
-   
+            justify-items: start;
             text-align: center;
             height: 98px;
             width:100%;
             background-color:#006DBB;
             display: grid;
-            grid-template-columns: 300px 50px auto auto 300px;
+            grid-template-columns: 450px 100px auto auto;
             grid-template-rows: 95px;
             grid-template-areas: 
           
-            ". headerimg . hemenu_desktop . ";
+            " headerimg . hemenu_desktop . ";
           
             
             }
@@ -2928,8 +2928,10 @@ body {
    
 
         .header_asideOfImg {
-            place-self: center;
-         grid-area:headerimg;
+            align-self: center;
+            justify-self: right;
+       
+            grid-area: headerimg;
 
         }
 
@@ -3517,7 +3519,42 @@ body {
 
           .shortarticle {
 
-                margin-top:150px;
+            width: 60%;
+      
+            margin: 150px auto;
+
+          }
+
+          .form_inputs label {
+
+            display: block;
+            text-align: left;
+            padding:5px;
+
+          }
+
+          .uppdatera_Txt {
+
+            width: 250px;
+    background-color:#006DBB;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    color:white;
+}
+
+.uppdateraSubmit {
+    margin:0 auto;
+    margin-top:50px;
+    background-color:#006DBB;
+    width:175px;
+    display: block;
+    height:44px;
+    color:white;
+    padding: 10px;
+
+}
 
           }
 
