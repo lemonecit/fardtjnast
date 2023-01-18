@@ -3525,6 +3525,11 @@ body {
 
           }
 
+          .shortarticle img {
+
+          }
+          
+
           .form_inputs label {
 
             display: block;
@@ -3556,8 +3561,44 @@ body {
 
 }
 
-          }
+.setting_form {
+    align-items: center;
+    display: flex;
+    width: 300px;
+    background-color:#006DBB;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    color:white;
 
-          
+}
+
+.process_asideLT {
+    float:left;
+    width:80%;
+
+}
+   
+.process_asideRT {
+    float:left;
+    width:20%;
+    background-color:whitesmoke;
+
+}
+
+.process_asideRT span {
+
+display:block;
+color: wheat;
+text-align: center;
+display: block;
+border-radius: 50%;
+background-color: #006DBB;
+padding: 10px;
+width: 12px;
+
+
+}
 
 }
