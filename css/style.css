@@ -3321,6 +3321,7 @@ body {
             }
 
             .form_inputs .loForm {
+                justify-content: center;
                 display: flex;
                 width:100%;
                 padding:10px;
@@ -3428,7 +3429,7 @@ body {
         .mCustomer {
 
             background-color: #006DBB;
-            width:30%;
+            width:50%;
             margin:0 auto;
             padding:0;
 
