@@ -1,6 +1,30 @@
+/* Extra small devices (phones, 600px and down) */
+Start row: 15
+End row: 1137
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+Start row: 1140
+End row: 2511
+
+/* för större enhet (bärbara/stationära, 992px och uppåt) */
+Start row: 2514
+End row: 3192
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+Start row: 3195
+End row: 4451
+
+/* Pierre LEMON, student at MIUN, 20230116 
+Färdtjänst projekt
+CSS
+
+*/
 
 
-h1{
+
+
+h1{ 
+    text-align: center;
         font-size: calc(32px + (32 - 28) * ((100vw - 768px) / (1600 - 768))); 
 }
 
@@ -9,8 +33,24 @@ h2{
 }
 
 
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    h1{ 
+        text-align: center;
+            font-size: calc(32px + (32 - 28) * ((100vw - 768px) / (1600 - 768))); 
+    }
+    
+    h2{
+            font-size: calc(28px + (28 - 22) * ((100vw - 768px) / (1600 - 768))); 
+    }
+
+    h3 {
+
+text-align: center;
+
+    }
 
 
     /* hidden elements of the desktop */
@@ -46,8 +86,10 @@ h2{
         }
         
         header{
+            top:0;
+        position:fixed;
         text-align: center;
-        height: 98px;
+        height: 100px;
         width:100%;
         background-color:#006DBB;
         display: grid;
@@ -142,13 +184,86 @@ h2{
 
         }
 
-        
+        .shortarticle {
+            width:90%;
+            margin:0 auto;
+            margin-top:180px;
+            margin-bottom:180px;
 
-        main {
-            text-align: center;    
-            height:555px;
+        }
+
+        .shortarticle img {
+            width:82px;
+            display:block;
+            margin:0 auto;
+
+          }
+
+
+        .process_asideLT {
+            text-align: center;
+          clear:both;
+            width:100%;
         
         }
+
+        .process_asideLT img {
+            margin:0 auto;
+            width:80px;
+            display: block;
+
+        }
+
+
+           
+        .process_asideRT {
+            
+            margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    height: 80px;
+    /* margin-top: 60px; */
+    clear: both;
+    width: 55%;
+        
+        }
+        
+        .process  {
+            margin-right:5px;
+            align-self: center;
+            border: 2px solid black;
+            text-align: center;
+            border-radius: 50%;
+            background-color: #006DBB;
+            padding: 10px;
+            /* width: 10px;
+            height: 10px; */
+        
+        
+        }
+        
+        
+        .process a {
+            text-decoration: none;
+            color:white;
+            font-size:20px;
+        }
+        
+        
+         .checked_process {
+        
+            background-color:white;
+        
+        }
+        
+        .checked_process > a {
+        
+            color:black;
+        
+        }
+
+        
+
 
         section a {
             text-decoration: none;
@@ -283,6 +398,7 @@ h2{
 
 
         .quickmenu {
+            top:100px;
             z-index: 0;
             position:fixed;
             width: 100%;
@@ -496,6 +612,7 @@ h2{
         /* Style for input in form field */
 
           .form_inputs aside {
+            justify-content: center;
             display:flex;
             padding: 10px;
 
@@ -556,7 +673,7 @@ h2{
 
         .form_inputs{
 
-            width: 55%;
+            width: 65%;
             text-align: center;
             margin: 0 auto;
 
@@ -610,21 +727,22 @@ h2{
         }
 
         .submit_btn {
+            display: block;
             text-transform: uppercase;
-            font-weight:bolder;
-            color:white;
-            margin-top:20px;
-            width:250px;
-            height:50px;
-            background-color:#006DBB;
-            border-radius:25px;
+            font-weight: bolder;
+            color: white;
+            margin-top: 20px;
+            width: 100%;
+            height: 60px;
+            background-color: #006DBB;
+            border-radius: 25px;
 
         }
 
         .mCustomer {
 
             background-color: #006DBB;
-            width:70%;
+            width:85%;
             margin:0 auto;
             padding:0;
 
@@ -676,8 +794,373 @@ h2{
             float: left;
             text-align: center;
             margin-left: 10px;
+            margin-right:10px;
             width: 32px;
         }
+
+
+
+        
+/* for page of aterkommande resor - desktop */
+
+.forReturnForm_21 {
+    /* float:left;
+    width: 293px; */
+background-color:#F6F6F6;
+height: auto;
+margin-bottom:10px;
+
+}
+
+.forReturAside_21 .hour {
+    font-weight: bold;
+    width: 27px;
+    padding: 5px;
+    font-size: 25px;
+
+}
+
+.forReturAside_22 .hour {
+    font-weight: bold;
+    width: 27px;
+    padding: 5px;
+    font-size: 25px;
+
+}
+
+.forReturnForm_21_special {
+
+    /* float:left;
+    width: 293px; */
+background-color:#F6F6F6;
+height: 160px;
+margin-bottom:10px;
+
+}
+
+.forReturnForm_22 input[type=checkbox] {
+
+transform: scale(1.5);
+margin-right:15px;
+
+}
+
+
+
+
+.forReturnForm_22 {
+    /* float:right;
+    width: 293px; */
+background-color:#F6F6F6;
+height: auto;
+margin-bottom:10px;
+
+}
+
+
+.forReturnForm_final {
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    clear: both;
+    background-color: #006DBB;
+    /* width: 653px; */
+    display: block;
+
+}
+
+
+.forReturnForm_full {
+    padding:10px;
+    margin-bottom:10px;
+    clear:both;
+    background-color:#F6F6F6;
+/* width:653px; */
+display:block;
+
+}
+
+.forReturnForm_final .cleanRow .columnRT {
+    float:right;
+    width:70%;
+    
+    
+    }
+
+.forReturAside_21 {
+    padding:10px;
+    align-items: center;
+    display:flex;
+}
+
+.forReturAside_22 {
+    padding:10px;
+    align-items: center;
+    display:flex;
+}
+
+.forReturAside_21 h3 {
+    margin:0 0 0 10px;
+    margin-left: 10px;
+    /* align-self: center; */
+    font-size: 18px;
+    text-align: center;
+    /* vertical-align: middle; */
+    /* align-items: center; */
+
+
+
+}
+
+.forReturAside_full h3 {
+    margin:0 0 0 10px;
+    margin-left: 10px;
+    /* align-self: center; */
+    font-size: 18px;
+    text-align: center;
+    /* vertical-align: middle; */
+    /* align-items: center; */
+
+
+
+}
+
+
+.forReturAside_22 h3 {
+    margin:0 0 0 10px;
+
+    /* align-self: center; */
+    font-size: 18px;
+    text-align: center;
+    /* vertical-align: middle; */
+    /* align-items: center; */
+ 
+
+
+}
+
+
+.forReturAside_21 img {
+    padding:10px;
+    margin:0;
+    width:32px;
+}
+
+.forReturAside_22 img {
+    padding:10px;
+    margin:0;
+    width:32px;
+}
+
+.forReturAside_full {
+
+    display: flex;
+
+}
+
+.forReturnForm_full img {
+
+width:32px;
+
+}
+.forReturnForm_final .cleanRow input{
+
+
+    transform: scale(1.5);
+}
+
+.forReturnForm_final h3 {
+
+    color:white;
+}
+
+.forReturnForm_final .columnRT span {
+
+    color:white;
+
+}
+
+
+.noRound {
+
+    margin:0;    
+    align-self: start;
+    color: white;
+    border: 2px solid black;
+    text-align: center;
+    /* display: block; */
+    border-radius: 50%;
+    background-color: #006DBB;
+    /* padding: 5px; */
+    width: 20px;
+    /* height: 10px
+px
+; */
+    font-size: 18px;
+
+}
+
+.onRowInObjects {
+    width: 40%;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+
+
+.cleanRow {
+    margin-top: 10px;
+    clear:both;
+    display:flex;
+    
+  }
+
+  .cleanRow_VD {
+    justify-content: center;
+    margin-top: 10px;
+    clear:both;
+    display:flex;
+
+  }
+
+  .columnLT {
+
+    float:left;
+    width:20%;
+
+  }
+
+  .columnLT_VD {
+
+    float:left;
+    width:45%;
+
+  }
+
+
+  .columnLT_VD aside {
+
+    display:flex;
+  }
+
+  .columnRT_VD aside {
+
+    display:flex;
+  }
+
+  .columnLT_VD aside label {
+    text-align: left;
+    margin:0;
+    width: 50%;
+
+  }
+
+  .columnLT_VD aside input {
+
+    width:10%;
+
+  }
+
+  .columnRT {
+    justify-content: center;
+    width:80%;
+    float:right;
+
+  }
+
+  .columnRT aside {
+
+    display:flex;
+  }
+
+
+  .columnRT aside label {
+    text-align: left;
+    margin:0;
+    width: 70%;
+
+  }
+
+  .columnRT aside input {
+
+    width:10%;
+
+  }
+
+
+  .columnRT_VD {
+
+    width:45%;
+    float:right;
+
+  }
+
+  .columnRT_VD aside label {
+    text-align: left;
+    margin:0;
+    width: 50%;
+
+  }
+
+  .columnRT_VD aside input {
+
+    width:10%;
+
+  }
+
+
+
+  .forTextAreaInForm {
+    margin-top:10px;
+    resize: none;
+        width:100%;
+        height:120px;
+
+
+  }
+
+
+  .cleanRow_ver {
+    margin-top:30px;
+    clear:both;
+    display:flex;    
+
+  }
+
+
+  .columnLT_ver {
+    margin-left:55px;
+        float:right;
+       width:5%; 
+
+  }
+
+  .columnLT_ver input {
+    align-self: center;
+    height: 20px;
+    width: 20px;
+}
+
+
+
+  .columnRT_ver {
+    align-self: center;
+    float:left;
+    width:70%; 
+
+}
+
+.columnRT_ver span {
+    margin: 0;
+    padding: 0px;
+    align-self: center;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
 
         
     
@@ -1300,7 +1783,7 @@ body {
     }
 
     .submit_btn {
-        /* display: block; */
+        display: block;
         text-transform: uppercase;
         font-weight:bolder;
         color:white;
@@ -1506,11 +1989,9 @@ body {
 
     }
 
-    
-
     main {
         text-align: center;    
-        height:555px;
+        /* height:555px; */
     
     }
 
@@ -2938,7 +3419,7 @@ body {
 
         main {
             text-align: center;    
-            height:555px;
+            /* height:555px; */
             width:60%;
             margin:0 auto;
         
@@ -3359,7 +3840,7 @@ body {
 
         .form_inputs{
 
-            width: 40%;
+            width: 55%;
             text-align: center;
             margin: 0 auto;
             display: block;
@@ -3429,7 +3910,7 @@ body {
         .mCustomer {
 
             background-color: #006DBB;
-            width:50%;
+            width:75%;
             margin:0 auto;
             padding:0;
 
@@ -3517,14 +3998,11 @@ body {
 
             width: 60%;
       
-            margin: 150px auto;
+            margin: 255px auto;
 
           }
 
-          .shortarticle img {
-
-          }
-          
+             
 
           .form_inputs label {
 
@@ -3580,7 +4058,7 @@ body {
     /* margin-top:60px; */
     float:left;
     width:20%;
-    background-color:#f9f9f9;
+    /* background-color:#f9f9f9; */
 
 }
 
@@ -3618,5 +4096,386 @@ width: 25px;
     color:black;
 
 }
+
+.accessible .menufordesktop {
+
+    background-color:black;
+
+}
+
+.accessible .header_menu {
+
+    background-color:black;
+
+}
+
+.accessible .header_asideOfImg {
+
+    display:none;
+
+}
+
+.shortarticle .returnForm {
+
+
+margin-top:100px;
+
+}
+
+/* for page of aterkommande resor - desktop */
+
+.forReturnForm_21 {
+    float:left;
+    width: 293px;
+background-color:#F6F6F6;
+height: auto;
+margin-bottom:10px;
+
+}
+
+.forReturAside_21 .hour {
+    font-weight: bold;
+    width: 27px;
+    padding: 5px;
+    font-size: 25px;
+
+}
+
+.forReturAside_22 .hour {
+    font-weight: bold;
+    width: 27px;
+    padding: 5px;
+    font-size: 25px;
+
+}
+
+.forReturnForm_21_special {
+
+    float:left;
+    width: 293px;
+background-color:#F6F6F6;
+height: 160px;
+margin-bottom:10px;
+
+}
+
+.forReturnForm_22 input[type=checkbox] {
+
+transform: scale(1.5);
+margin-right:15px;
+
+}
+
+
+
+
+.forReturnForm_22 {
+    float:right;
+    width: 293px;
+background-color:#F6F6F6;
+height: auto;
+margin-bottom:10px;
+
+}
+
+
+.forReturnForm_final {
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    clear: both;
+    background-color: #006DBB;
+    /* width: 653px; */
+    display: block;
+
+}
+
+
+
+
+.forReturnForm_full {
+    padding:10px;
+    margin-bottom:10px;
+    clear:both;
+    background-color:#F6F6F6;
+/* width:653px; */
+display:block;
+
+}
+
+.forReturAside_21 {
+    padding:10px;
+    align-items: center;
+    display:flex;
+}
+
+.forReturAside_22 {
+    padding:10px;
+    align-items: center;
+    display:flex;
+}
+
+.forReturAside_21 h3 {
+    margin:0 0 0 10px;
+    margin-left: 10px;
+    /* align-self: center; */
+    font-size: 18px;
+    text-align: center;
+    /* vertical-align: middle; */
+    /* align-items: center; */
+
+
+
+}
+
+.forReturAside_full h3 {
+    margin:0 0 0 10px;
+    margin-left: 10px;
+    /* align-self: center; */
+    font-size: 18px;
+    text-align: center;
+    /* vertical-align: middle; */
+    /* align-items: center; */
+
+
+
+}
+
+
+.forReturAside_22 h3 {
+    margin:0 0 0 10px;
+
+    /* align-self: center; */
+    font-size: 18px;
+    text-align: center;
+    /* vertical-align: middle; */
+    /* align-items: center; */
+ 
+
+
+}
+
+
+.forReturAside_21 img {
+    padding:10px;
+    margin:0;
+    width:32px;
+}
+
+.forReturAside_22 img {
+    padding:10px;
+    margin:0;
+    width:32px;
+}
+
+.forReturAside_full {
+
+    display: flex;
+
+}
+
+.forReturnForm_full img {
+
+width:32px;
+
+}
+.forReturnForm_final .cleanRow input{
+
+
+    transform: scale(1.5);
+}
+
+.forReturnForm_final h3 {
+
+    color:white;
+}
+
+.forReturnForm_final .columnRT span {
+
+    color:white;
+
+}
+
+
+.noRound {
+
+    margin:0;    
+    align-self: start;
+    color: white;
+    border: 2px solid black;
+    text-align: center;
+    /* display: block; */
+    border-radius: 50%;
+    background-color: #006DBB;
+    /* padding: 5px; */
+    width: 20px;
+    /* height: 10px
+px
+; */
+    font-size: 18px;
+
+}
+
+.onRowInObjects {
+
+display:flex;
+
+}
+
+
+
+
+.cleanRow {
+    margin-top: 10px;
+    clear:both;
+    display:flex;
+    
+  }
+
+  .cleanRow_VD {
+    justify-content: center;
+    margin-top: 10px;
+    clear:both;
+    display:flex;
+
+  }
+
+  .columnLT {
+
+    float:left;
+    width:20%;
+
+  }
+
+  .columnLT_VD {
+
+    float:left;
+    width:35%;
+
+  }
+
+
+  .columnLT_VD aside {
+
+    display:flex;
+  }
+
+  .columnRT_VD aside {
+
+    display:flex;
+  }
+
+  .columnLT_VD aside label {
+    text-align: left;
+    margin:0;
+    width: 50%;
+
+  }
+
+  .columnLT_VD aside input {
+
+    width:10%;
+
+  }
+
+  .columnRT {
+    justify-content: center;
+    width:50%;
+    float:right;
+
+  }
+
+  .columnRT aside {
+
+    display:flex;
+  }
+
+
+  .columnRT aside label {
+    text-align: left;
+    margin:0;
+    width: 70%;
+
+  }
+
+  .columnRT aside input {
+
+    width:10%;
+
+  }
+
+
+  .columnRT_VD {
+
+    width:35%;
+    float:right;
+
+  }
+
+  .columnRT_VD aside label {
+    text-align: left;
+    margin:0;
+    width: 50%;
+
+  }
+
+  .columnRT_VD aside input {
+
+    width:10%;
+
+  }
+
+
+
+  .forTextAreaInForm {
+    margin-top:10px;
+    resize: none;
+        width:100%;
+        height:120px;
+
+
+  }
+
+
+  .cleanRow_ver {
+    margin-top:30px;
+    clear:both;
+    display:flex;    
+
+  }
+
+
+  .columnLT_ver {
+    margin-left:55px;
+        float:right;
+       width:5%; 
+
+  }
+
+  .columnLT_ver input {
+    align-self: center;
+    height: 20px;
+    width: 20px;
+}
+
+
+
+  .columnRT_ver {
+    align-self: center;
+    float:left;
+    width:50%; 
+
+}
+
+.columnRT_ver span {
+    margin: 0;
+    padding: 0px;
+    align-self: center;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+
 
 }
