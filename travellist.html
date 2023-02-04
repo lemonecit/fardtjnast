@@ -8,39 +8,31 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header_mobile">
+    <header class="header_mobile">       
+        <input class="side-menu" type="checkbox" id="side-menu" />
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
         
-        <aside class="header_asideOfImg">
-            <div class="header_img">  
-                <a href="index.html"><img src="images/front-of-bus.png" alt="bild på buss"></a>
-           </div>
-        </aside>
-
-        <input id="toggle" type="checkbox"></input>
-        <label for="toggle" class="hamburger">
-            <div class="top-bun"></div>
-            <div class="meat"></div>
-            <div class="bottom-bun"></div>
-          </label>
-          
-          <div class="nav">
-            <div class="nav-wrapper">
-              <nav>
-                <a href="rules.html">REGLER</a><br>
-                <a href="#">Hur fungerar färdtjänst</a><br>
-                <a href="customercall.html">Kontakta kundtjänst</a><br>
-                <a href="faq.html">FAQ</a><br>
-                <a href="index.html">Logga ut</a>
-              </nav>
-            </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html"><img src="images/front-of-bus.png" alt="bild på buss"></a></li>
+            <li><a href="#">Hur fungerar färdtjänst</a></li>
+                <li><a href="rules.html">REGLER</a></li>
+            <li><a href="#">Hur fungerar färdtjänst</a></li>
+            <li><a href="customercall.html">Kontakta kundtjänst</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="index.html">Logga ut</a></li>
+        </ul>
+    
+    </nav>
     
     </header>
+    
     <header class="menufordesktop">
 
       <aside class="header_asideOfImg">
        <div class="header_img">  
            <a href="index.html"><img src="images/front-of-bus.png" alt="bild på buss"></a>
-   
+        </div>
 
       </aside>
       <aside class="header_menu">
@@ -83,14 +75,14 @@
                 <article class="shortarticle">
                     <h1>Ansöka om återkommande resor</h1>
 
-                    <form action="" class="returnForm">
+                    <form action="index.html" class="returnForm">
 
                         <article class="forReturnForm_21">
                             <aside class="forReturAside_21">
                                     <span class="noRound">1</span><h3>Återkommande resa från:</h3>
                             </aside>
                             <aside class="forReturAside_21">
-                                    <img src="images/black_map.png" alt=""><input type="text" name="" id="" placeholder="Ange adress:">
+                                    <img src="images/black_map.png" alt="adress"><input type="text" placeholder="Ange adress:">
                             </aside>
 
                         </article>
@@ -100,7 +92,7 @@
                                     <span class="noRound">2</span><h3>Återkommande resa till:</h3>
                             </aside>
                             <aside class="forReturAside_22">
-                                    <img src="images/black_map.png" alt=""><input type="text" name="" id="" placeholder="Ange adress:">
+                                    <img src="images/black_map.png" alt="adress"><input type="text" placeholder="Ange adress:">
                             </aside>
 
                         </article>
@@ -110,7 +102,7 @@
                                     <span class="noRound">3</span><h3>Ange tid:</h3>
                             </aside>
                             <aside class="forReturAside_21" >
-                                    <img src="images/time.png" alt=""><input type="text" name="" id="" class="hour" placeholder="00"><label for="">::</label><input type="text" name="" id="" class="hour" placeholder="00">
+                                    <img src="images/time.png" alt="tid"><input type="text" class="hour" placeholder="00"><label for="kolon1">::</label><input type="text" id="kolon1" class="hour" placeholder="00">
                             </aside>
 
                         </article>
@@ -121,10 +113,10 @@
                             <aside class="forReturAside_22">
                                     
                                     <input type="checkbox" value="Ja,tack!"/>    
-                                    <label for="">Ja,tack!</label>
+                                    <span>Ja,tack!</span>
                             </aside>
                             <aside  class="forReturAside_22">
-                                    <img src="images/time.png" alt=""><input type="text" name="" id="" class="hour" placeholder="00"><label for="">::</label><input type="text" name="" id="" class="hour" placeholder="00">
+                                    <img src="images/time.png" alt=""><input type="text"  class="hour" placeholder="00"><label for="kolon2">::</label><input type="text" id="kolon2" class="hour" placeholder="00">
                             </aside>
 
                         </article>
@@ -141,18 +133,18 @@
                                     
                                     <aside>
                                         <img src="images/rullator.png" alt="">
-                                        <label for="">Rullator</label>
-                                        <input type="checkbox" name="" id="" placeholder="Ange adress:">
+                                        <label for="rul">Rullator</label>
+                                        <input type="checkbox" id="rul">
                                     </aside>
                                     <aside>
-                                        <img src="images/black_map.png" alt="">
-                                        <label for="">Medresenär</label>
-                                        <input type="checkbox" name="" id="" placeholder="Ange adress:">
+                                        <img src="images/black_map.png" alt="medresenär">
+                                        <label for="med">Medresenär</label>
+                                        <input type="checkbox" id="med">
                                     </aside>
                                     <aside>
-                                    <img src="images/ledarhund.png" alt="">
-                                    <label for="">Ledarhund</label>
-                                    <input type="checkbox" name="" id="" placeholder="Ange adress:">
+                                    <img src="images/ledarhund.png" alt="ledarhund">
+                                    <label for="led">Ledarhund</label>
+                                    <input type="checkbox" id="led">
                                 </aside>
                                 
                             </aside>
@@ -178,19 +170,19 @@
                                     
                                     <aside>
                                         
-                                        <label for="">Återkommer varje dag</label>
-                                        <input type="checkbox" name="" id="" placeholder="Ange adress:">
+                                        <label for="1a">Återkommer varje dag</label>
+                                        <input type="checkbox" id="1a">
                                     </aside>
                                     
                                     <aside>
                                         
-                                        <label for="">Återkommer varje vecka</label>
-                                        <input type="checkbox" name="" id="" placeholder="Ange adress:">
+                                        <label for="1b">Återkommer varje vecka</label>
+                                        <input type="checkbox" id="1b">
                                     </aside>
                                         
                                     <aside>
-                                        <label for="">Återkommer varje månad</label>
-                                        <input type="checkbox" name="" id="" placeholder="Ange adress:">
+                                        <label for="1c">Återkommer varje månad</label>
+                                        <input type="checkbox" id="1c">
                                     </aside>
                             </aside>
                         </aside>
@@ -211,23 +203,23 @@
 
                                 <aside>
                                    
-                                    <label for="">Måndagar</label>
-                                    <input type="checkbox" name="" id="" placeholder="Ange adress:">
+                                    <label for="1e">Måndagar</label>
+                                    <input type="checkbox" id="1e">
                                 </aside>
                                 <aside>
                                   
-                                    <label for="">Tisdagar</label>
-                                    <input type="checkbox" name="" id="" placeholder="Ange adress:">
+                                    <label for="1f">Tisdagar</label>
+                                    <input type="checkbox" id="1f">
                                 </aside>
                                 <aside>
                                   
-                                    <label for="">Onsdagar</label>
-                                    <input type="checkbox" name="" id="" placeholder="Ange adress:">
+                                    <label for="1g">Onsdagar</label>
+                                    <input type="checkbox" id="1g">
                                 </aside>
                                 <aside>
                                 
-                                    <label for="">Torsdagar</label>
-                                    <input type="checkbox" name="" id="" placeholder="Ange adress:">
+                                    <label for="1h">Torsdagar</label>
+                                    <input type="checkbox"  id="1h">
                                 </aside>
                         
 
@@ -237,23 +229,23 @@
 
                                 <aside>
                                    
-                                    <label for="">Fredagar</label>
-                                    <input type="checkbox" name="" id="" placeholder="Ange adress:">
+                                    <label for="1i">Fredagar</label>
+                                    <input type="checkbox" id="1i">
                                 </aside>
                                 <aside>
                                   
-                                    <label for="">Lördagar</label>
-                                    <input type="checkbox" name="" id="" placeholder="Ange adress:">
+                                    <label for="1j">Lördagar</label>
+                                    <input type="checkbox" id="1j">
                                 </aside>
                                 <aside>
                                   
-                                    <label for="">Söndagar</label>
-                                    <input type="checkbox" name="" id="" placeholder="Ange adress:">
+                                    <label for="1k">Söndagar</label>
+                                    <input type="checkbox"  id="1k">
                                 </aside>
                                 <aside>
                                 
-                                    <label for="">Alla dagar</label>
-                                    <input type="checkbox" name="" id="" placeholder="Ange adress:">
+                                    <label for="1l">Alla dagar</label>
+                                    <input type="checkbox"  id="1l">
                                 </aside>
                         
 
@@ -297,8 +289,8 @@
 
                             <aside class="cleanRow_ver">
                                 <aside class="columnLT_ver">
-                                    <input type="checkbox" name="" id="">
-                                    <input type="checkbox" name="" id="">
+                                    <input type="checkbox">
+                                    <input type="checkbox">
 
                                 </aside>
 
