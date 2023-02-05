@@ -217,6 +217,12 @@ text-align: center;
 
         }
 
+        .shortarticle section h1 {
+
+            margin-bottom:20px;
+
+        }
+
 
             .shortarticle form input[type="submit"] {
 
@@ -226,7 +232,7 @@ text-align: center;
                     color: white;
                     margin-top: 20px;
                     width: 100%;
-                    height: 60px;
+                    height: 50px;
                     background-color: #006DBB;
                     border-radius: 25px;
 
@@ -399,7 +405,7 @@ text-align: center;
 
         .afQuickMenu {
 
-            margin-top:100px
+            margin-top:70px
 
         }
 
@@ -722,7 +728,20 @@ text-align: center;
           .form_inputs aside {
             justify-content: center;
             display:flex;
-            /* padding: 10px; */
+            padding: 5px;
+
+          }
+
+          .form_inputs .uppdatera_Txt {
+
+
+            border-radius: 25px;
+    width: 100%;
+    padding: 5px;
+    background-color: #006dbb;
+    color: white;
+    text-indent: 10px;
+    font-size: 16px;
 
           }
 
@@ -861,15 +880,15 @@ text-align: center;
 
             .mCustomer li {
                 
-            border-bottom:1px solid white;
-
-            list-style-type: none;
-            margin:0;
-            padding:10px;
-            height: 40px;
-            margin: 0 auto;
-            /* display: flex; */
-            align-items: center;
+                text-align: center;
+                border-bottom: 1px solid white;
+                list-style-type: none;
+                margin: 0;
+                padding: 10px;
+                height: 75px;
+                margin: 0 auto;
+                /* display: flex; */
+                align-items: center;
             }
 
         .mCustomer a:hover {
@@ -883,12 +902,11 @@ text-align: center;
         .mCustomer a {
             color: white;
             display: block;
-   
+            display: block;
+            font-size: 16px;
             text-decoration: none;
             display: block;
-     
             margin: 0 auto 0 auto;
-          
             line-height: 40px;
             padding: 0;
      
@@ -899,11 +917,13 @@ text-align: center;
 
         .mCustomer img {
 
-            float: left;
+            display: block;
+            /* float: left; */
             text-align: center;
-            margin-left: 10px;
-            margin-right:10px;
-            width: 32px;
+            /* margin-left: 10px; */
+            /* margin-right: 10px; */
+            width: 21px;
+        
         }
 
 
@@ -3663,7 +3683,7 @@ body {
     color: white;
     margin-top: 20px;
     width: 100%;
-    height: 60px;
+    height: 50px;
     background-color: #006DBB;
     border-radius: 25px;
 
