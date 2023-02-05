@@ -140,7 +140,44 @@ text-align: center;
             transition: all .2s ease-out;
             width: 100%;
         }
+
+        .section-quickmenu {
+
+            position: fixed;
+    top: 99px;
+    height: 50px;
+    width: 100%;
+
+        }
+
+
+        .ac_afQuickMenu {
+
+            position:relative;
+            top:60px;
+            
+            
+            }
+
+            .ac_afQuickMenu section{
+
+         width: 100%;
+                
+                
+                }
+
+            .ac_afQuickMenu p {
+    /* margin-left: 5%; */
+    margin-top: 23px;
+    width: 90%;
+    /* text-align: left; */
+    /* margin: 0 auto; */
+    /* margin-right: 5%; */
+    line-height: 1.5em;
+            }
         
+
+   
         
         /* header{
             top:0;
@@ -350,11 +387,11 @@ text-align: center;
         
 
 
-        section a {
+        /* section a {
             text-decoration: none;
             padding:50px;
 
-        }
+        } */
 
 
         .footer_section a {
@@ -1595,6 +1632,12 @@ body {
 
     }
 
+    .afQuickmenu section {
+
+        margin-top: 80px;
+
+    }
+
     .ac_quickmenu {
         z-index: 0;
         position:fixed;
@@ -2291,13 +2334,7 @@ body {
     }
 
 
-    .afQuickMenu {
 
-        width: 60%;
-   
-        margin: 100px auto;
-
-    }
 
     .ac_quickmenu {
         z-index: 0;
@@ -2898,6 +2935,7 @@ body {
         }
 
         
+        
 
         main {
             text-align: center;    
@@ -3479,7 +3517,21 @@ body {
 
         }
         
+        .ac_header_mobile {
 
+            display:none;
+        }
+
+
+        .section-quickmenu {
+
+            top: 95px;
+            z-index: 0;
+            position: fixed;
+            width: 100%;
+
+
+        }
           
 
 
@@ -3647,12 +3699,10 @@ body {
 
         }
 
-        .firstpage_login {
+    
 
-            margin-top:65px;
-
-        }
-
+        
+   
         
 
         main {
@@ -3662,12 +3712,12 @@ body {
             margin:0 auto;
         
         }
-
+/* 
         section a {
             text-decoration: none;
             padding:50px;
 
-        }
+        } */
 
 
         .footer_section a {
@@ -3753,14 +3803,21 @@ body {
 
         }
 
-        .firstpage_login input[type="submit"] {
+        .firstpage_login {
+
+            margin-top:65px;
+
+        }
+
+
+        form input[type="submit"] {
 
             margin: 0 auto;
             border-radius: 25px;
             color: white;
             display: block;
             width: 400px;
-            /* height: 50px; */
+            height: 50px;
             background-color: #006DBB;
             text-transform: uppercase;
             font-weight: bold;
@@ -4395,6 +4452,7 @@ width: 25px;
 
 }
 
+
 .accessible .header_menu {
 
     background-color:black;
@@ -4413,6 +4471,16 @@ width: 25px;
 margin-top:100px;
 
 }
+
+.ac_afQuickMenu {
+
+position:relative;
+top:200px;
+
+
+}
+
+
 
 /* for page of aterkommande resor - desktop */
 
