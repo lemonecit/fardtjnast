@@ -8,22 +8,64 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="header_mobile">       
-    <input class="side-menu" type="checkbox" id="side-menu" />
-    <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+    <header class="header_mobile">   
     
-    <nav class="nav">
-        <ul>
-            <li><a href="index.html"><img src="images/front-of-bus.png" alt="bild på buss"></a></li>
-        <li><a href="#">Hur fungerar färdtjänst</a></li>
-            <li><a href="rules.html">REGLER</a></li>
-        <li><a href="#">Hur fungerar färdtjänst</a></li>
-        <li><a href="customercall.html">Kontakta kundtjänst</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="index.html">Logga ut</a></li>
-    </ul>
+    
+        <aside class="logo">
+        
+                <a href="index.html">
+                    <img src="images/front-of-bus.png" alt="bild på buss"/>
+                </a>
+       
 
-</nav>
+        </aside>
+
+
+        <aside class="hamburger">
+
+
+        <input class="side-menu" type="checkbox" id="side-menu" />
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+
+            <nav class="nav">
+                <ul>
+              
+                    <li>
+                        <a href="fardtjanst.html">
+                            Hur fungerar färdtjänst
+                        </a>
+                    </li>
+                    <li>
+                        <a href="rules.html">
+                            REGLER
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Hur fungerar färdtjänst
+                        </a>
+                    </li>
+                    <li>
+                        <a href="customercall.html">
+                            Kontakta kundtjänst
+                        </a>
+                    </li>
+                    <li>
+                        <a href="faq.html">
+                            FAQ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            Logga ut
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </aside>
+
 
 </header>
 
@@ -75,13 +117,13 @@
           <form action="oneway_order.html">
           <section class="form_inputs">
           <aside class="loForm">
-          <img src="images/rullator.png" alt="rullator"><span>Rullator</span><input class="inputTxt" type="checkbox" name="wheelchair">
+          <img src="images/rullator.png" alt="rullator"><label for="rull">Rullator</label><input class="inputTxt" type="checkbox" name="wheelchair" id="rull">
           </aside>
           <aside class="loForm" >
-          <img src="images/rullator.png" alt="Medresenär"><span>Medresenär</span> <input class="inputTxt" type="checkbox" name="following">
+          <img src="images/rullator.png" alt="Medresenär"><label for="med">Medresenär</label> <input class="inputTxt" type="checkbox" name="following" id="med">
           </aside>
           <aside class="loForm">
-          <img src="images/ledarhund.png" alt="Ledarhund"><span>Ledarhund</span> <input class="inputTxt" type="checkbox" name="dog">
+          <img src="images/ledarhund.png" alt="Ledarhund"><label for="led">Ledarhund</label> <input class="inputTxt" type="checkbox" name="dog" id="led">
           </aside>
           <aside class="loForm">            
           <input class="inputSubmit" type="submit" value="Nästa steg">
@@ -131,6 +173,15 @@
                         Skärmanpassning
                     </a>
                 </aside>
+
+                
+                <aside>    
+                    <a href="tillganglighetsredogorelse.html">
+                        <img src="images/tillganglighet.png" alt=""><br>
+                      tillgänglighetsredogörelse
+                    </a>
+                </aside>
+                
     
     
             </section>

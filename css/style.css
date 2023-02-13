@@ -29,7 +29,9 @@ h1{
 }
 
 h2{
+        text-align: center;
         font-size: calc(28px + (28 - 22) * ((100vw - 768px) / (1600 - 768))); 
+        padding:5px;
 }
 
 
@@ -108,18 +110,39 @@ text-align: center;
         }
    
 
-        .header_mobile{
-            /* display:flex; */
-            justify-content: center;
-            align-self: center;
-            height: 99px;
-            z-index: 100;
-            background-color: var(--blue);
-            box-shadow: 1px 1px 5px 0px var(--grey);
-            position: sticky;
-            top: 0;
-            width: 100%;
-        }
+			.header_mobile{
+				display:flex;
+				justify-content: center;
+				align-self: center;
+				height: 99px;
+				z-index: 100;
+				background-color: var(--blue);
+				box-shadow: 1px 1px 5px 0px var(--grey);
+				position: sticky;
+				top: 0;
+				width: 100%;
+			}
+
+			.logo {
+
+				margin: 0 auto;
+				display: flex;
+				flex-direction: column;
+				width: 0%;
+				align-self: center;
+
+			}
+
+			.logo img {
+				width:45px;
+				height:45px;
+
+			}
+
+			.hamburger {
+				width: 10%;
+
+			}
 
         .ac_header_mobile .hamb-line {
             background-color: yellow;
@@ -701,6 +724,7 @@ text-align: center;
         
         /* Nav menu */
         header .nav{
+            left:0;
             width: 100%;
             height: 100%;
             position: fixed;
@@ -712,6 +736,7 @@ text-align: center;
         }
 
              .ac_header_mobile .nav{
+                left:0;
             width: 100%;
             height: 100%;
             position: fixed;
@@ -907,6 +932,20 @@ color:black;
 
 
         }
+
+
+        
+        .form_inputs label {
+
+            width: 170px;
+            margin-left: 10px;
+            text-align: left;
+            align-self: center;
+            font-weight: 600;
+            
+
+        }
+
 
         .form_inputs span {
             margin-left:10px;
@@ -3378,14 +3417,27 @@ body {
 
         }
 
-        .form_inputs span {
+
+        .form_inputs .loForm label {
+
+            width: 170px;
+            margin-left: 10px;
+            text-align: left;
+            align-self: center;
+            font-weight: 600;
+            
+
+        }
+
+
+        /* .form_inputs span {
             margin-left:10px;
             text-align:left;
             align-self: center;
             font-weight:600;
             
 
-        }
+        } */
 
         .form_inputs .special {
             text-align: right;
@@ -4196,6 +4248,21 @@ body {
 
 
         }
+
+        
+        .form_inputs .loForm label {
+
+            width: 170px;
+            margin-left: 10px;
+            text-align: left;
+            align-self: center;
+            font-weight: 600;
+            
+
+        }
+
+
+
 
         .form_inputs span {
             margin-left:10px;
