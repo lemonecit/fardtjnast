@@ -4909,5 +4909,14 @@ display:flex;
 }
 
 
+.specialpage {
+
+
+    height: 1500px;
+    position: relative;
+    top: 100px;
+
+}
+
 
 }
