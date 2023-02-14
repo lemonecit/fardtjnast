@@ -23,16 +23,9 @@ CSS
 
 
 
-h1{ 
-    text-align: center;
-        font-size: calc(32px + (32 - 28) * ((100vw - 768px) / (1600 - 768))); 
-}
 
-h2{
-        text-align: center;
-        font-size: calc(28px + (28 - 22) * ((100vw - 768px) / (1600 - 768))); 
-        padding:5px;
-}
+
+
 
 
 
@@ -756,7 +749,7 @@ text-align: center;
 
         
         .ac_header_mobile li:hover {
-color:black;
+            color:black;
             background-color:rgb(255, 0, 0);
 
         }
@@ -3456,7 +3449,8 @@ body {
            margin-bottom:10px;
             text-align: center;
             /* display: block; */
-            width:250px;
+            width:80%;
+            margin:0 auto;
         
 
         }
@@ -3606,7 +3600,8 @@ body {
         
 
         header{
-
+            z-index: 100;
+            justify-content: center;
             position:fixed;
             top:0;
             overflow:hidden;
@@ -3615,12 +3610,8 @@ body {
             height: 98px;
             width:100%;
             background-color:#006DBB;
-            display: grid;
-            grid-template-columns: 450px 100px auto auto;
-            grid-template-rows: 95px;
-            grid-template-areas: 
-          
-            " headerimg . hemenu_desktop . ";
+            display: flex;
+        
           
             
             }
@@ -3746,8 +3737,7 @@ body {
         .header_asideOfImg {
             align-self: center;
             justify-self: right;
-       
-            grid-area: headerimg;
+            width:10%;
 
         }
 
@@ -3956,7 +3946,7 @@ body {
 
         .quickmenu {
             top:98px;
-            z-index: 0;
+            z-index: 100;
             position:fixed;
             width: 100%;
             background-color: #FF8A00;
@@ -4220,7 +4210,8 @@ body {
 
                 text-align: center;
                 display: block;
-                width:250px;
+                width:100%;
+                margin:0 auto;
 
             }
 
@@ -4290,7 +4281,8 @@ body {
            margin-bottom:10px;
             text-align: center;
             /* display: block; */
-            width:250px;
+            width:75%;
+            margin:0 auto;
         
 
         }
@@ -4300,7 +4292,8 @@ body {
             text-transform: uppercase;
             font-weight:bolder;
             height:50px;
-            width:250px;
+            width:75%;
+            margin:0 auto;
             margin-top:10px;
             margin-bottom:10px;
             border-radius:25px;
@@ -4411,15 +4404,11 @@ body {
           }
 
           .shortarticle {
-
-            width: 60%;
-      
+            overflow:auto;
+            width: 70%;
             margin: 255px auto;
-
           }
-
-             
-
+           
           .form_inputs label {
 
             display: block;
@@ -4916,6 +4905,19 @@ display:flex;
     position: relative;
     top: 100px;
 
+}
+
+h1{ 
+    text-align: center;
+    font-size:calc(34px + (34 - 28) * ((100vw - 1200px) / (1600 -1200)));
+ 
+    padding:2px;
+}
+
+h2{
+    text-align: center;
+    font-size: calc(28px + (28 - 24) * ((100vw - 1200px) / (1600 - 1200))); 
+    padding:5px;
 }
 
 
