@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Startsidan för färdtjänst</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/tablet.css">
 </head>
 <body>
     <header class="header_mobile">   
@@ -25,7 +27,10 @@
 
 
         <input class="side-menu" type="checkbox" id="side-menu" />
-        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <label class="hamb" for="side-menu"> 
+               <span class="hamb-line">Meny:</span>  
+        </label>
+        
 
             <nav class="nav">
                 <ul>
@@ -79,15 +84,13 @@
       <aside class="header_menu">
    
              <nav>
-
-              <ul>
-                  <li><a href="">Regler</a></li>
-                  <li><a href="">Hur fungerar färdtjänst?</a></li>
-                  <li><a href="">Kontakta kundtjänst</a></li>
-                  <li><a href="">Faq</a></li>
-                  <li><a href="">Logga ut</a></li>
-              </ul>
-
+                <ul>
+                    <li><a href="rules.html">Regler</a></li>
+                    <li><a href="fardtjanst.html">Hur fungerar färdtjänst?</a></li>
+                    <li><a href="customercall.html">Kontakta kundtjänst</a></li>
+                    <li><a href="faq.html">Faq</a></li>
+                    <li><a href="index.html">Logga ut</a></li>
+                </ul>
 
               
              
@@ -118,53 +121,130 @@
 
                     <form action="index.html" class="returnForm">
 
-                        <article class="forReturnForm_21">
-                            <aside class="forReturAside_21">
-                                    <span class="noRound">1</span><h3>Återkommande resa från:</h3>
-                            </aside>
-                            <aside class="forReturAside_21">
-                                    <img src="images/black_map.png" alt="adress"><input type="text" placeholder="Ange adress:">
-                            </aside>
+                        <aside class="formRow">
+                            <article class="forReturnForm_21">
+                                <aside class="forReturAside_21">
+                                        <span class="noRound">1</span>
+                                        <span>Återkommande resa från:</span>
+                                </aside>
+                                <aside class="forReturAside_21_2">
+                                        <img src="images/black_map.png" alt="avresa">
+                                        <label for="avresa">Destination:</label>
+                                      
+                                </aside>
+                                <aside class="forReturAside_21_3">
+                                    <input type="text" placeholder="Ange adress:" id="avresa">
 
-                        </article>
+                                </aside>
+    
+                            </article>
+    
+                            <article class="forReturnForm_22">
+                                <aside class="forReturAside_22">
+                                        <span class="noRound">2</span>
+                                        <span>Återkommande resa till:</span>
+                                </aside>
+                                <aside class="forReturAside_22_2">
+                                        <img src="images/black_map.png" alt="Ditresa">
+                                        <label for="adress1">Destination:</label>
+                                  
+                                </aside>
 
-                        <article class="forReturnForm_22">
-                            <aside class="forReturAside_22">
-                                    <span class="noRound">2</span><h3>Återkommande resa till:</h3>
-                            </aside>
-                            <aside class="forReturAside_22">
-                                    <img src="images/black_map.png" alt="adress"><input type="text" placeholder="Ange adress:">
-                            </aside>
+                                <aside class="forReturAside_22_3">
+                                    <input type="text" placeholder="Ange adress:" id="adress1">
 
-                        </article>
+                                </aside>
+    
+                            </article>
 
-                        <article class="forReturnForm_21_special">
-                            <aside class="forReturAside_21">
-                                    <span class="noRound">3</span><h3>Ange tid:</h3>
-                            </aside>
-                            <aside class="forReturAside_21" >
-                                    <img src="images/time.png" alt="tid"><input type="text" class="hour" placeholder="00"><label for="kolon1">::</label><input type="text" id="kolon1" class="hour" placeholder="00">
-                            </aside>
+                        </aside>
 
-                        </article>
-                        <article class="forReturnForm_22">
-                            <aside class="forReturAside_22">
-                                    <span class="noRound">4</span><h3>Önskemål om returresa:</h3>
-                            </aside>
-                            <aside class="forReturAside_22">
-                                    
-                                    <input type="checkbox" value="Ja,tack!"/>    
-                                    <span>Ja,tack!</span>
-                            </aside>
-                            <aside  class="forReturAside_22">
-                                    <img src="images/time.png" alt=""><input type="text"  class="hour" placeholder="00"><label for="kolon2">::</label><input type="text" id="kolon2" class="hour" placeholder="00">
-                            </aside>
+                        <aside class="formRow">
+                            
+                            <article class="forReturnForm_special">
+                                <aside class="forReturAside_special_1">
+                                        <span class="noRound">3</span>
+                                        <span>Ange tid:</span>
+                                </aside>
+                                <aside class="forReturAside_special_2" >
+                                        <img src="images/time.png" alt="tid">
+                                </aside>
+                                <aside class="forReturAside_special_3">
+                                    <aside class="aside_left">
+                                        <label for="hour1">
+                                            Tim
+                                        </label>
+                                        <input type="text" class="hour" placeholder="00" id="hour1">
+                                    </aside>
+                                    <aside class="specialtecken">
+    
+                                        <span>::</span>
+    
+                                    </aside>
+                                    <aside class="aside_right">
+                                        <label for="min1">Min</label>
+                                        <input type="text" id="min1" class="hour" placeholder="00">
+    
+                                    </aside>
+                                
+                               
+    
+                                </aside>
+    
+                            </article>
+                       
+                       
+                       
+                            <article class="forReturnForm_special">
+                                <aside class="forReturAside_special_1a">
+                                        <span class="noRound">4</span>
+                                        <span>Önskemål om returresa:</span>
+                                </aside>
+                                <aside class="forReturAside_special_2a">
+                                        <label for="tack">Ja,tack!</label>
+                                        <input type="checkbox" value="Ja,tack!" id="tack"/>    
+                                      
+                                </aside>
 
-                        </article>
+                                <aside class="forReturAside_special_2" >
+                                    <img src="images/time.png" alt="tid">
+                                </aside>
+    
+                                <aside class="forReturAside_special_3">
+                                    <aside class="aside_left">
+                                        <label for="hh">
+                                            Tim
+                                        </label>
+                                        <input type="text" class="hour" placeholder="00" id="hh">
+                                    </aside>
+                                    <aside class="specialtecken">
+    
+                                        <span>::</span>
+    
+                                    </aside>
+                                    <aside class="aside_right">
+                                        <label for="kolon1">Min</label>
+                                        <input type="text" id="kolon1" class="hour" placeholder="00">
+    
+                                    </aside>
+                                
+                               
+    
+                                </aside>
+                                  
+                            
+                        
+    
+                            </article>
+    
+                            </aside>
+              
+
 
                         <article class="forReturnForm_full">
                             <aside class="forReturAside_full">
-                                    <span class="noRound">5</span><h3>Tillägg:</h3>
+                                    <span class="noRound">5</span>
+                                        <span>Tillägg:</span>
                             </aside>
 
                             <aside class="cleanRow">
@@ -196,7 +276,8 @@
                         
                         <article class="forReturnForm_full">
                             <aside class="forReturAside_full">
-                                    <span class="noRound">6</span><h3>Önskemål om upprepande resa:</h3>
+                                    <span class="noRound">6</span>
+                                    <span>Önskemål om upprepande resa:</span>
                             </aside>
 
                             <aside class="cleanRow">
@@ -235,7 +316,8 @@
                         
                         <article class="forReturnForm_full">
                             <aside class="forReturAside_full">
-                                    <span class="noRound">7</span><h3>Fyll i veckodagar:</h3>
+                                    <span class="noRound">7</span>
+                                    <span>Fyll i veckodagar:</span>
                             </aside>
 
                 
@@ -299,11 +381,12 @@
                                 
                         <article class="forReturnForm_full">
                             <aside class="forReturAside_full">
-                                    <span class="noRound">8</span><h3>Övriga önskemål:</h3>
+                                    <span class="noRound">8</span>
+                                    <span>Övriga önskemål:</span>
                             </aside>
-                            <aside class="cleanRow">
-
-                                <textarea class="forTextAreaInForm">
+                            <aside class="cleanRowI">
+                                <label for="desc">Meddelande</label>
+                                <textarea class="forTextAreaInForm" id="desc">
 
 
                                 </textarea>
@@ -316,7 +399,8 @@
                                 
                         <article class="forReturnForm_full">
                             <aside class="forReturAside_full">
-                                    <span class="noRound">9</span><h3>Din bekräftelse med bokning</h3>
+                                    <span class="noRound">9</span>
+                                    <span>Din bekräftelse med bokning</span>
                             </aside>
                             <aside class="cleanRow">
 
@@ -330,15 +414,14 @@
 
                             <aside class="cleanRow_ver">
                                 <aside class="columnLT_ver">
-                                    <input type="checkbox">
-                                    <input type="checkbox">
+                                    <label for="sms">Bekräftelse via SMS</label>
+                                    <input type="checkbox" id="sms">
+                                    <label for="mail">Bekräftelse via e-post</label>
+                                    <input type="checkbox" id="mail">
 
                                 </aside>
 
-                                <aside class="columnRT_ver">
-                                    <span>Bekräftelse via SMS</span>
-                                    <span>Bekräftelse via e-post</span>
-                                </aside>
+                      
                               
 
                             </aside>
@@ -348,12 +431,13 @@
 
                         <article class="forReturnForm_final">
                             <aside class="forReturAside_full">
-                                    <span class="noRound">10</span><h3>Verifiering</h3>
+                                    <span class="noRound">10</span>
                             </aside>
                             <aside class="cleanRow">
 
                                     <aside class="columnLT">
-                                        <input type="checkbox">
+                                        <label for="veri">Verifiering</label>
+                                        <input type="checkbox" id="veri">
                                     </aside>
                                     
                                     <aside class="columnRT">
