@@ -106,9 +106,9 @@
           }
           
           /* :hover allows you change the background color of the nav items when you mouse over them. Play around with the transition value to change the speed of the hover transition. */
-          .header_menu li:hover {
-            
-            background: rgb(126, 98, 228);
+          .header_menu li:hover  {
+      
+            background: rgb(0, 0, 0);
             /* transition: background .3s; */
           }
 

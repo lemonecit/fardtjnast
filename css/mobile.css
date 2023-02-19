@@ -808,24 +808,22 @@ text-align: center;
          
         /* Style for input in form field */
 
-          .form_inputs aside {
+            .form_inputs aside 
+            {
             justify-content: center;
-            display:flex;
+            /* display:flex; */
             padding: 5px;
+            }
 
-          }
-
-          .form_inputs .uppdatera_Txt {
-
-
+          .form_inputs .uppdatera_Txt 
+          {
             border-radius: 25px;
-    width: 100%;
-    padding: 5px;
-    background-color: #006dbb;
-    color: white;
-    text-indent: 10px;
-    font-size: 16px;
-
+            width: 100%;
+            padding: 5px;
+            background-color: #006dbb;
+            color: white;
+            text-indent: 10px;
+            font-size: 16px;
           }
 
 
@@ -894,7 +892,7 @@ text-align: center;
         
         .form_inputs label {
             display:block;
-            /* width: 170px; */
+            width: 145px;
             margin-left: 10px;
             text-align: left;
             align-self: center;
@@ -905,6 +903,7 @@ text-align: center;
 
 
         .form_inputs span {
+            width: 185px;
             margin-left:10px;
             text-align:left;
             align-self: center;
@@ -917,6 +916,7 @@ text-align: center;
             text-align: right;
             font-weight:bold;
             text-decoration: underline;
+            width: 185px;
             
         }
    
