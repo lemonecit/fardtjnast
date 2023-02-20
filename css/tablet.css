@@ -647,12 +647,7 @@ text-align: center;
         
     
         
-        header a{
-            text-transform: uppercase;
-            color:black;
-            text-decoration: none;
-        }
-        
+   
         header ul{
             position: relative;
             /* margin-top: 247px; */
@@ -686,12 +681,28 @@ text-align: center;
             min-width: calc(25rem + 1px);
             height: 100%;
             position: fixed;
-            background-color: #6ec0fc;
+            background-color: #033d67d4;
             overflow: hidden;
             /* margin-top: 41px;
             border-bottom:1px solid white; */
             
         }
+
+        header a{
+            text-transform: uppercase;
+            color:rgb(255, 255, 255);
+            text-decoration: none;
+            font-weight:700;
+        }
+
+
+        header li:hover > a{
+            text-transform: uppercase;
+            color: black;
+            text-decoration: none;
+            font-weight:700;
+        }
+        
 
              .ac_header_mobile .nav{
                 left:0;
