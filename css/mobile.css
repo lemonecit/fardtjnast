@@ -1593,16 +1593,17 @@ px
 
 .onRowInObjects
     {
-        width: 80%;
+        width: 87%;
         justify-content: center;
         display: block;
         margin: 0 auto;
     }
 
 .onRowInObjects aside
-    {   padding: 5px;
+    {     border-bottom: dashed 1px rgb(136, 134, 134);
+        padding: 5px;
         align-items: center;
-        column-gap: 10%;
+        column-gap: 25%;
         /* text-align: left; */
         display: flex;
         justify-content: center;
@@ -1622,23 +1623,50 @@ px
                 width:115px;
             }
 
+            .onRowInObjects input 
+            {
+                width:20px;
+                height:20px;
+            }
 
 
-
-.cleanRow {
-    margin-top: 5px;
-    clear:both;
-    display:flex;
     
-  }
+            .forReturnForm_full .repeatTours {
+                display: flex;
+                text-align: center;
+                width: 87%;
+                margin: 10px auto 10px auto;
+              
 
-  .cleanRow_VD {
-    justify-content: center;
-    margin-top: 10px;
-    clear:both;
-    display:flex;
 
-  }
+            }
+
+
+
+
+
+.cleanRow 
+    {
+        margin-top: 5px;
+        clear:both;
+        display:flex;
+    }
+
+  .cleanRow_VD 
+    {
+        width: 89%;
+        column-gap: 14%;
+        justify-content: center;
+        clear: both;
+        display: flex;
+        margin: 10px auto 10px auto;
+    }
+
+  .cleanRowI
+    {
+        width: 80%;
+        margin: 10px auto 10px auto;
+    }
 
   .forReturnForm_final .columnLT {
 
@@ -1668,15 +1696,15 @@ px
 
   .columnLT {
 
-    float:left;
-    width:10%;
+    
+    width:16%;
 
   }
 
   .columnLT_VD {
 
-    float:left;
-    width:45%;
+   
+    width:40%;
 
   }
 
@@ -1689,58 +1717,67 @@ px
 
 
   .columnLT_VD aside {
-
-    display:flex;
+   padding:5px;
+    justify-content: start;
+    display: flex;
+    align-items: center;
   }
 
   .columnRT_VD aside {
-
-    display:flex;
+    padding:5px;
+    justify-content: end;
+    display: flex;
+    align-items: center;
   }
 
-  .columnLT_VD aside label {
+  .columnLT_VD aside label 
+  {
     text-align: left;
     margin:0;
     width: 70%;
 
   }
 
-  .columnLT_VD aside input {
+  .columnLT_VD aside input 
+        {
+            width: 20px;
+            height: 20px;
+        }
 
-    width:10%;
-
-  }
-
-  .columnRT {
-    justify-content: center;
-    width:90%;
-    float:right;
-
-  }
+  .columnRT 
+        {
+            width: 85%;
+            float: right;
+        }
 
   .columnRT aside {
-    padding:5px;
-    display:flex;
+    column-gap: 31px;
+    justify-content: start;
+    padding: 5px;
+    display: flex;
   }
 
 
   .columnRT aside label {
-
-    width: 90%;
+    text-align: left;
+    margin: 0;
+    width: 79%;
 
   }
 
   .columnRT aside input {
 
-    width:10%;
+    align-self: end;
+    width: 20px;
+    height: 20px;
 
   }
 
 
   .columnRT_VD {
 
-    width:45%;
-    float:right;
+    width:40%;
+ 
 
   }
 
@@ -1753,7 +1790,8 @@ px
 
   .columnRT_VD aside input {
 
-    width:10%;
+    width: 20px;
+    height: 20px;
 
   }
 

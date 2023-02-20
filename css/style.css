@@ -1509,52 +1509,81 @@ width:32px;
         font-size: 18px;
         }
 
-.onRowInObjects
+.repeatTours    
         {
-        display:flex;
+        width: 100%;
+        column-gap: 5%;
+        display: flex;
+        justify-content: center;
         }
 
-
-
-
-        .cleanRow
+.onRowInObjects
         {
-            text-align: left;
+            width: 100%;
+            column-gap: 5%;
+            display: flex;
+            justify-content: center;
+        }
+
+.onRowInObjects input 
+        {
+        width:22px;
+        height:22px;
+        }
+
+.forReturnForm_full .cleanRow
+        {
+        margin:0 auto;
+        width:76%;
+        column-gap: 6%;
+        text-align: left;
         justify-content: center;
         padding: 10px;
         display: flex;
         }
 
-        .cleanRow span 
+
+.cleanRow
         {
-            text-align: left;
-
-
-        }
-
-
-        .cleanRowI
-        {
-            text-align: left;
+        width: 76%;
+        text-align: left;
         justify-content: center;
         padding: 10px;
-
+        display: flex;
+        margin: 0 auto;
+        }
+        
+.cleanRow span 
+        {
+        text-align: left;
         }
 
 
+.cleanRowI
+        {
+        padding: 10px;
+        }
 
-  .cleanRow_VD {
-    justify-content: center;
-    margin-top: 10px;
-    clear:both;
-    display:flex;
+.cleanRowI label 
+        {
+            width: 100%;
+            display: block;
+        }
 
-  }
+
+.cleanRow_VD 
+        {
+        justify-content: center;
+        margin-top: 10px;
+        clear:both;
+        display:flex;
+        }
 
   .columnLT {
-
-    float:left;
-    width:20%;
+    align-self: start;
+    /* float: left; */
+    width: 30%;
+    text-align: left;
 
   }
 
@@ -1578,11 +1607,12 @@ color:white;
   }
 
   .columnRT_VD aside {
-
+    justify-content: end;
     display:flex;
   }
 
   .columnLT_VD aside label {
+    align-self: center;
     text-align: left;
     margin:0;
     width: 50%;
@@ -1590,46 +1620,52 @@ color:white;
   }
 
   .columnLT_VD aside input {
+    height:22px;
+    width:22px;
 
-    width:10%;
 
   }
 
   .columnRT {
-    justify-content: center;
-    width:50%;
-    float:right;
+    width: 80%;
+    text-align: right;
 
   }
 
   .columnRT aside {
 
-    display:flex;
+    column-gap: 0%;
+    justify-content: end;
+    display: flex;
+    width: 100%;
   }
 
 
   .columnRT aside label {
+    align-self: center;
     text-align: left;
-    margin:0;
-    width: 70%;
+    /* margin: 0; */
+    width: 92%;
 
   }
 
   .columnRT aside input {
 
-    width:10%;
+    height:22px;
+    width:22px;
 
   }
 
 
   .columnRT_VD {
 
-    width:35%;
+    width:41%;
     float:right;
 
   }
 
   .columnRT_VD aside label {
+    align-self:center;
     text-align: left;
     margin:0;
     width: 50%;
@@ -1637,18 +1673,18 @@ color:white;
   }
 
   .columnRT_VD aside input {
-
-    width:10%;
+    height:22px;
+    width:22px;
 
   }
 
 
 
   .forTextAreaInForm {
-    margin-top:10px;
     resize: none;
-        width:100%;
-        height:120px;
+    width: 76%;
+    height: 120px;
+    margin: 0 auto;
 
 
   }
