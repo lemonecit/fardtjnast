@@ -1126,6 +1126,13 @@ display:block;
     
     }
 
+    .forReturnForm_full .cleanRow span {
+        width:80%;
+        margin:10px auto 10px auto;
+        
+        
+        }
+
 .forReturAside_21 {
     padding:10px;
     align-items: center;
@@ -1239,9 +1246,8 @@ width:25px;
 
 }
 .forReturnForm_final .cleanRow input{
-
-
-    transform: scale(1.5);
+    height:20px;
+    width:20px;
 }
 
 .forReturnForm_final h3 {
@@ -1669,8 +1675,8 @@ px
     }
 
   .forReturnForm_final .columnLT {
-
-    width:25%;
+    display:flex;
+    width:45%;
 
 
   }
@@ -1709,7 +1715,8 @@ px
   }
 
   .columnLT label {
-
+    color:white;
+    font-weight:700;
     display: block;
     width: 100%; 
 
@@ -1809,20 +1816,31 @@ px
 
   .cleanRow_ver {
     margin-top:30px;
-    clear:both;
-    display:flex;    
+
 
   }
 
 
   .columnLT_ver {
-    margin-left:55px;
-        float:right;
-       /* width:5%;  */
+    width:80%;
+    display: flex;
+    column-gap:14%;
+    margin:0 auto;
+    padding:5px;
 
   }
 
-  .columnLT_ver input {
+
+  .columnRT_ver {
+    width:80%;
+    display: flex;
+    column-gap:10%;
+    margin:0 auto;
+    padding:5px;
+
+}
+
+  .columnRT_ver input, .columnLT_ver input{
     align-self: center;
     height: 20px;
     width: 20px;
@@ -1830,12 +1848,7 @@ px
 
 
 
-  .columnRT_ver {
-    align-self: center;
-    float:left;
-    width:70%; 
 
-}
 
 .columnRT_ver span {
     margin: 0;

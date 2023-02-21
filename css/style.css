@@ -1692,31 +1692,39 @@ color:white;
 
   .cleanRow_ver {
     margin-top:30px;
-    clear:both;
-    display:flex;    
+    /* clear:both;
+    display:flex;     */
 
   }
 
 
   .columnLT_ver {
-    margin-left:55px;
-        float:right;
+        justify-content: center;
+        display: flex;  
+        width:80%;
+        column-gap: 12%;
+        padding:5px;
+        align-items: center;
+        
        /* width:5%;  */
 
   }
 
-  .columnLT_ver input {
+  .columnLT_ver input, .columnRT_ver input {
     align-self: center;
-    height: 20px;
-    width: 20px;
+    height: 22px;
+    width: 22px;
 }
 
 
 
   .columnRT_ver {
-    align-self: center;
-    float:left;
-    width:50%; 
+    display: flex;  
+    width:80%;
+    justify-content: center;
+    padding:5px;   
+    column-gap:10%;
+    align-items: center;
 
 }
 
