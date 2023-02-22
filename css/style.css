@@ -1580,6 +1580,7 @@ width:27px;
         }
 
   .columnLT {
+    display: flex;
     align-self: start;
     /* float: left; */
     width: 30%;
