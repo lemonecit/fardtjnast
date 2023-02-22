@@ -1474,7 +1474,7 @@ width:95%;
 
 .forReturnForm_full img {
 
-width:32px;
+width:27px;
 
 }
 .forReturnForm_final .cleanRow input{
@@ -1520,7 +1520,7 @@ width:32px;
 .onRowInObjects
         {
             width: 100%;
-            column-gap: 5%;
+            column-gap: 3%;
             display: flex;
             justify-content: center;
         }
