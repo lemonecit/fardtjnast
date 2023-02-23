@@ -1661,7 +1661,7 @@ px
   .cleanRow_VD 
     {
         width: 89%;
-        column-gap: 14%;
+        /* column-gap: 14%; */
         justify-content: center;
         clear: both;
         display: flex;
