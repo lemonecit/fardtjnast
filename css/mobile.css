@@ -1638,7 +1638,7 @@ px
 
     
             .forReturnForm_full .repeatTours {
-                display: flex;
+                /* display: flex; */
                 text-align: center;
                 width: 87%;
                 margin: 10px auto 10px auto;
@@ -1702,7 +1702,7 @@ px
 
   .columnLT {
 
-    
+    margin-bottom:10px;
     width:16%;
 
   }
@@ -1753,7 +1753,7 @@ px
 
   .columnRT 
         {
-            width: 85%;
+            width: 97%;
             float: right;
         }
 
