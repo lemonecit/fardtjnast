@@ -1459,10 +1459,18 @@ margin-left:52px;
             margin: 0 auto;
         }
 
-        .forReturAside_special_2a {
+.forReturAside_special_2a 
+        {
+        column-gap: 4%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .forReturAside_special_2a input {
 
-            text-align: center;
-
+            width:22px;
+            height:22px;
 
         }
 
@@ -1495,7 +1503,7 @@ margin-left:52px;
 
         .aside_left input {
 
-            width: 25px;
+            width: 35px;
             height: 60px;
             text-align: center;
             font-size: 20px;
@@ -1519,7 +1527,7 @@ margin-left:52px;
 
         .aside_right input {
 
-            width: 25px;
+            width: 35px;
             height: 60px;
             text-align: center;
             font-size: 20px;
